@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url("assets/unnamed (1).png");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+section {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: solid;
+    border-color: yellow;
+    justify-content: center;
+    text-align: center;
+    height: 590px;
+    border-radius: 30px;
+    color: red;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+section:hover{
+    box-shadow: 14px black;
+}
+section h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.input{
+    width: 100%;
+    position: relative;
+    margin-bottom: 25px;
+}
+.input input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid rgba(rgb(165, 15, 15), rgb(114, 218, 30), rgb(0, 255, 213), alpha);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 40px;
+}
+form .titre{
+    color: red;
+    background-color: black;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    font-size: 80%;
+}
+form .titre h1{
+    margin-left: 2%;
+}
+form .titre:hover{
+    transition: 0.5s;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: violet 20px;
+    color: black;
+    border-radius: 20px;
+    border-color: violet;
+    border: 6px;
+    text-transform: lowercase;
+    text-align: center;
+}
+.input input::placeholder{
+    color: black;
+}
+.consequences button{
+    border-radius: 20px;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+    margin-top: 15px;
+}
+.consequences button:hover{
+    background-color: transparent;
+    border: 2px solid blue;
+}
+.title h1{
+    top: 2px;
+    margin-bottom: 300px;
+    text-align: center;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 300px;
+    margin-top: 0;
+}
+
+section .nom input:hover{
+    background-color: red;
+}
+section .age input:hover{
+    background-color: blueviolet;
+}
+section .raison input:hover{
+    background-image: url("assets/IMG-20250502-WA0044.jpg");
+    background-position: center;
+    color: white;
+}
+section .auteur input:hover{
+    background-color: yellow;
+}
+.index{
+    background-color: black;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 0.9em;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
